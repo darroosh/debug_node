@@ -17,12 +17,11 @@ app.get('/users', async (req, res) => {
   res.json(JSON.parse(users));
 });
 
-app.get('/async-error', async (req, res) => {
-  const result = await fetchData(); // fetchData is undefined
+app.get('/one-user', async (req, res) => {
+  const result = await fetchData(); 
   res.send(result);
 });
 
-// Route 4: Middleware ordering issue
 app.post('/tasks', (req, res) => {
   const task = req.body.task;
   res.status(201).json({ task });
@@ -36,6 +35,6 @@ app.listen(300, () => {
 });
 
 
-function fetchdata() {
+function FetchData() {
     return 'good';
 }
