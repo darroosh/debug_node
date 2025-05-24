@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 28,
+      "isActive": true,
+      "roles": ["user", "admin"],
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      "createdAt": "2023-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "age": 32,
+      "isActive": true,
+      "roles": ["user"],
+      "address": {
+        "street": "456 Oak Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipCode": "90001"
+      },
+      "createdAt": "2023-02-20T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "username": "bob_johnson",
+      "email": "bob.johnson@example.com",
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "age": 25,
+      "isActive": false,
+      "roles": ["guest"],
+      "address": {
+        "street": "789 Pine Rd",
+        "city": "Chicago",
+        "state": "IL",
+        "zipCode": "60601"
+      },
+      "createdAt": "2023-03-10T08:45:00Z"
+    }
+  ]
